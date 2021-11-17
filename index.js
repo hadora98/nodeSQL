@@ -3,7 +3,7 @@ var app = express();
 var Connection = require('tedious').Connection;
 var result = "";
     var config = {  
-        server: '192.168.0.220',  //update me
+        server: '182.160.11.82',  //update me
         authentication: {
             type: 'default',
             options: {
