@@ -53,12 +53,7 @@ var result = "";
         request.on('done', function(rowCount, more) {  
         console.log(rowCount + ' rows returned');  
         });  
-        
-        // Close the connection after the final event emitted by the request, after the callback passes
-        request.on("requestCompleted", function (rowCount, more) {
-            connection.close();
-        });
-        connection.execSql(request);  
+    
     }  
 
     app.get('/', function(req,res){
