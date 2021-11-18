@@ -28,6 +28,7 @@ app.get('/', function (req, res) {
 
             // send records as a response
             res.send(recordset);
+           console.log(recordset);
             
         });
     });
