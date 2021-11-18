@@ -13,7 +13,7 @@ var result = "";
         },
         options: {
             // If you are on Microsoft Azure, you need encryption:
-            encrypt: false,
+            encrypt: true,
             database: 'database1'  //update me
         }
     }; 
