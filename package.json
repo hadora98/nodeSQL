@@ -2,9 +2,9 @@
 "name":"app",
 "version":"1.0.0",
 "description":"My app",
-"main":"index2.js",
+"main":"index.js",
 "scripts":{
-"start":"node index2.js"
+"start":"node index.js"
 },
 "author":"",
 "license":"ISC",
