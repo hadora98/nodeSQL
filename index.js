@@ -3,7 +3,7 @@ var app = express();
 var Connection = require('tedious').Connection;
 var result = "";
     var config = {  
-        server: '182.160.11.82',  //update me
+        server: 'sql9898.database.windows.net',  //update me
         authentication: {
             type: 'default',
             options: {
